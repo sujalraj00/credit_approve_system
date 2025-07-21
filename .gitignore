@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Django migrations (if you want to skip tracking DB schema evolution — optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py[co]
+# Keep the __init__.py, ignore others
+**/migrations/!(__init__).py
+
+
+*.sqlite3
+
+# Excel files allready present 
+*.xlsx
+*.csv
+
+# OS-specific files
+.DS_Store
+
+# Docker-related
+*.log
+.env
+docker-compose.override.yml
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Test outputs
+*.log
+*.tmp
+*.out
+*.test
+
+# Python environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+dist/
+build/
+*.spec
